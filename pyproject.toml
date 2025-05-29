@@ -1,20 +1,19 @@
 [build-system]
 requires = [
-  "setuptools==69.5.1",
-  "setuptools-scm==7.1.0",
-  "wheel",
+  "setuptools>=61.0.0",
+  "wheel"
 ]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "torch-ttnn"
-authors = [{ name = "Tenstorrent", email = "info@tenstorrent.com" }]
-
+version = "0.1.0"
 description = "PyTorch dynamo backend for Tenstorrent TT-NN framework"
 readme = "README.md"
+authors = [{ name = "Tenstorrent", email = "info@tenstorrent.com" }]
 keywords = ["torch", "ttnn"]
 requires-python = ">=3.8"
-
-dynamic = ["dependencies", "version"]
-[tool.setuptools.dynamic]
-dependencies = {file = ["requirements.txt"]}
+dependencies = [
+  "torch>=2.0",
+  "ttnn>=0.1.0"
+]
