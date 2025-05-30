@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "torch-ttnn"
-version = "0.5.5"
+version = "0.5.6"
 description = "PyTorch dynamo backend for Tenstorrent TT-NN framework"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -52,4 +52,3 @@ dev = [
 # pip install "ttnn @ https://github.com/tenstorrent/tt-metal/releases/download/v0.59.0-rc31/ttnn-0.59.0rc31-cp310-cp310-linux_x86_64.whl"
 
 [tool.setuptools.packages.find]
-where = ["src"]
