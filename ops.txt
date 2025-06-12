@@ -1,0 +1,441 @@
+🚀 Starting tracing
+
+🔍 Operations used in forward():
+placeholder input_ids_1          input_ids_1
+placeholder attention_mask_1     attention_mask_1
+get_attr   _tensor_constant0    _tensor_constant0
+call_module model_embeddings_word_embeddings model.embeddings.word_embeddings
+get_attr   _tensor_constant1    _tensor_constant1
+call_module model_embeddings_token_type_embeddings model.embeddings.token_type_embeddings
+call_function add                  <built-in function add>
+get_attr   _tensor_constant2    _tensor_constant2
+call_module model_embeddings_position_embeddings model.embeddings.position_embeddings
+call_function add_1                <built-in function add>
+call_module model_embeddings_layer_norm model.embeddings.LayerNorm
+call_module model_embeddings_dropout model.embeddings.dropout
+call_method size                 size
+call_function getitem              <built-in function getitem>
+call_function getitem_1            <built-in function getitem>
+call_function getitem_2            <built-in function getitem>
+call_module model_encoder_layer_0_attention_self_query model.encoder.layer.0.attention.self.query
+call_method size_1               size
+call_function getitem_3            <built-in function getitem>
+call_function add_2                <built-in function add>
+call_method view                 view
+call_method permute              permute
+call_module model_encoder_layer_0_attention_self_key model.encoder.layer.0.attention.self.key
+call_method size_2               size
+call_function getitem_4            <built-in function getitem>
+call_function add_3                <built-in function add>
+call_method view_1               view
+call_method permute_1            permute
+call_module model_encoder_layer_0_attention_self_value model.encoder.layer.0.attention.self.value
+call_method size_3               size
+call_function getitem_5            <built-in function getitem>
+call_function add_4                <built-in function add>
+call_method view_2               view
+call_method permute_2            permute
+call_function scaled_dot_product_attention <built-in function scaled_dot_product_attention>
+call_method transpose            transpose
+call_method reshape              reshape
+call_module model_encoder_layer_0_attention_output_dense model.encoder.layer.0.attention.output.dense
+call_module model_encoder_layer_0_attention_output_dropout model.encoder.layer.0.attention.output.dropout
+call_function add_5                <built-in function add>
+call_module model_encoder_layer_0_attention_output_layer_norm model.encoder.layer.0.attention.output.LayerNorm
+call_module model_encoder_layer_0_intermediate_dense model.encoder.layer.0.intermediate.dense
+call_function gelu                 <built-in function gelu>
+call_module model_encoder_layer_0_output_dense model.encoder.layer.0.output.dense
+call_module model_encoder_layer_0_output_dropout model.encoder.layer.0.output.dropout
+call_function add_6                <built-in function add>
+call_module model_encoder_layer_0_output_layer_norm model.encoder.layer.0.output.LayerNorm
+call_method size_4               size
+call_function getitem_6            <built-in function getitem>
+call_function getitem_7            <built-in function getitem>
+call_function getitem_8            <built-in function getitem>
+call_module model_encoder_layer_1_attention_self_query model.encoder.layer.1.attention.self.query
+call_method size_5               size
+call_function getitem_9            <built-in function getitem>
+call_function add_7                <built-in function add>
+call_method view_3               view
+call_method permute_3            permute
+call_module model_encoder_layer_1_attention_self_key model.encoder.layer.1.attention.self.key
+call_method size_6               size
+call_function getitem_10           <built-in function getitem>
+call_function add_8                <built-in function add>
+call_method view_4               view
+call_method permute_4            permute
+call_module model_encoder_layer_1_attention_self_value model.encoder.layer.1.attention.self.value
+call_method size_7               size
+call_function getitem_11           <built-in function getitem>
+call_function add_9                <built-in function add>
+call_method view_5               view
+call_method permute_5            permute
+call_function scaled_dot_product_attention_1 <built-in function scaled_dot_product_attention>
+call_method transpose_1          transpose
+call_method reshape_1            reshape
+call_module model_encoder_layer_1_attention_output_dense model.encoder.layer.1.attention.output.dense
+call_module model_encoder_layer_1_attention_output_dropout model.encoder.layer.1.attention.output.dropout
+call_function add_10               <built-in function add>
+call_module model_encoder_layer_1_attention_output_layer_norm model.encoder.layer.1.attention.output.LayerNorm
+call_module model_encoder_layer_1_intermediate_dense model.encoder.layer.1.intermediate.dense
+call_function gelu_1               <built-in function gelu>
+call_module model_encoder_layer_1_output_dense model.encoder.layer.1.output.dense
+call_module model_encoder_layer_1_output_dropout model.encoder.layer.1.output.dropout
+call_function add_11               <built-in function add>
+call_module model_encoder_layer_1_output_layer_norm model.encoder.layer.1.output.LayerNorm
+call_method size_8               size
+call_function getitem_12           <built-in function getitem>
+call_function getitem_13           <built-in function getitem>
+call_function getitem_14           <built-in function getitem>
+call_module model_encoder_layer_2_attention_self_query model.encoder.layer.2.attention.self.query
+call_method size_9               size
+call_function getitem_15           <built-in function getitem>
+call_function add_12               <built-in function add>
+call_method view_6               view
+call_method permute_6            permute
+call_module model_encoder_layer_2_attention_self_key model.encoder.layer.2.attention.self.key
+call_method size_10              size
+call_function getitem_16           <built-in function getitem>
+call_function add_13               <built-in function add>
+call_method view_7               view
+call_method permute_7            permute
+call_module model_encoder_layer_2_attention_self_value model.encoder.layer.2.attention.self.value
+call_method size_11              size
+call_function getitem_17           <built-in function getitem>
+call_function add_14               <built-in function add>
+call_method view_8               view
+call_method permute_8            permute
+call_function scaled_dot_product_attention_2 <built-in function scaled_dot_product_attention>
+call_method transpose_2          transpose
+call_method reshape_2            reshape
+call_module model_encoder_layer_2_attention_output_dense model.encoder.layer.2.attention.output.dense
+call_module model_encoder_layer_2_attention_output_dropout model.encoder.layer.2.attention.output.dropout
+call_function add_15               <built-in function add>
+call_module model_encoder_layer_2_attention_output_layer_norm model.encoder.layer.2.attention.output.LayerNorm
+call_module model_encoder_layer_2_intermediate_dense model.encoder.layer.2.intermediate.dense
+call_function gelu_2               <built-in function gelu>
+call_module model_encoder_layer_2_output_dense model.encoder.layer.2.output.dense
+call_module model_encoder_layer_2_output_dropout model.encoder.layer.2.output.dropout
+call_function add_16               <built-in function add>
+call_module model_encoder_layer_2_output_layer_norm model.encoder.layer.2.output.LayerNorm
+call_method size_12              size
+call_function getitem_18           <built-in function getitem>
+call_function getitem_19           <built-in function getitem>
+call_function getitem_20           <built-in function getitem>
+call_module model_encoder_layer_3_attention_self_query model.encoder.layer.3.attention.self.query
+call_method size_13              size
+call_function getitem_21           <built-in function getitem>
+call_function add_17               <built-in function add>
+call_method view_9               view
+call_method permute_9            permute
+call_module model_encoder_layer_3_attention_self_key model.encoder.layer.3.attention.self.key
+call_method size_14              size
+call_function getitem_22           <built-in function getitem>
+call_function add_18               <built-in function add>
+call_method view_10              view
+call_method permute_10           permute
+call_module model_encoder_layer_3_attention_self_value model.encoder.layer.3.attention.self.value
+call_method size_15              size
+call_function getitem_23           <built-in function getitem>
+call_function add_19               <built-in function add>
+call_method view_11              view
+call_method permute_11           permute
+call_function scaled_dot_product_attention_3 <built-in function scaled_dot_product_attention>
+call_method transpose_3          transpose
+call_method reshape_3            reshape
+call_module model_encoder_layer_3_attention_output_dense model.encoder.layer.3.attention.output.dense
+call_module model_encoder_layer_3_attention_output_dropout model.encoder.layer.3.attention.output.dropout
+call_function add_20               <built-in function add>
+call_module model_encoder_layer_3_attention_output_layer_norm model.encoder.layer.3.attention.output.LayerNorm
+call_module model_encoder_layer_3_intermediate_dense model.encoder.layer.3.intermediate.dense
+call_function gelu_3               <built-in function gelu>
+call_module model_encoder_layer_3_output_dense model.encoder.layer.3.output.dense
+call_module model_encoder_layer_3_output_dropout model.encoder.layer.3.output.dropout
+call_function add_21               <built-in function add>
+call_module model_encoder_layer_3_output_layer_norm model.encoder.layer.3.output.LayerNorm
+call_method size_16              size
+call_function getitem_24           <built-in function getitem>
+call_function getitem_25           <built-in function getitem>
+call_function getitem_26           <built-in function getitem>
+call_module model_encoder_layer_4_attention_self_query model.encoder.layer.4.attention.self.query
+call_method size_17              size
+call_function getitem_27           <built-in function getitem>
+call_function add_22               <built-in function add>
+call_method view_12              view
+call_method permute_12           permute
+call_module model_encoder_layer_4_attention_self_key model.encoder.layer.4.attention.self.key
+call_method size_18              size
+call_function getitem_28           <built-in function getitem>
+call_function add_23               <built-in function add>
+call_method view_13              view
+call_method permute_13           permute
+call_module model_encoder_layer_4_attention_self_value model.encoder.layer.4.attention.self.value
+call_method size_19              size
+call_function getitem_29           <built-in function getitem>
+call_function add_24               <built-in function add>
+call_method view_14              view
+call_method permute_14           permute
+call_function scaled_dot_product_attention_4 <built-in function scaled_dot_product_attention>
+call_method transpose_4          transpose
+call_method reshape_4            reshape
+call_module model_encoder_layer_4_attention_output_dense model.encoder.layer.4.attention.output.dense
+call_module model_encoder_layer_4_attention_output_dropout model.encoder.layer.4.attention.output.dropout
+call_function add_25               <built-in function add>
+call_module model_encoder_layer_4_attention_output_layer_norm model.encoder.layer.4.attention.output.LayerNorm
+call_module model_encoder_layer_4_intermediate_dense model.encoder.layer.4.intermediate.dense
+call_function gelu_4               <built-in function gelu>
+call_module model_encoder_layer_4_output_dense model.encoder.layer.4.output.dense
+call_module model_encoder_layer_4_output_dropout model.encoder.layer.4.output.dropout
+call_function add_26               <built-in function add>
+call_module model_encoder_layer_4_output_layer_norm model.encoder.layer.4.output.LayerNorm
+call_method size_20              size
+call_function getitem_30           <built-in function getitem>
+call_function getitem_31           <built-in function getitem>
+call_function getitem_32           <built-in function getitem>
+call_module model_encoder_layer_5_attention_self_query model.encoder.layer.5.attention.self.query
+call_method size_21              size
+call_function getitem_33           <built-in function getitem>
+call_function add_27               <built-in function add>
+call_method view_15              view
+call_method permute_15           permute
+call_module model_encoder_layer_5_attention_self_key model.encoder.layer.5.attention.self.key
+call_method size_22              size
+call_function getitem_34           <built-in function getitem>
+call_function add_28               <built-in function add>
+call_method view_16              view
+call_method permute_16           permute
+call_module model_encoder_layer_5_attention_self_value model.encoder.layer.5.attention.self.value
+call_method size_23              size
+call_function getitem_35           <built-in function getitem>
+call_function add_29               <built-in function add>
+call_method view_17              view
+call_method permute_17           permute
+call_function scaled_dot_product_attention_5 <built-in function scaled_dot_product_attention>
+call_method transpose_5          transpose
+call_method reshape_5            reshape
+call_module model_encoder_layer_5_attention_output_dense model.encoder.layer.5.attention.output.dense
+call_module model_encoder_layer_5_attention_output_dropout model.encoder.layer.5.attention.output.dropout
+call_function add_30               <built-in function add>
+call_module model_encoder_layer_5_attention_output_layer_norm model.encoder.layer.5.attention.output.LayerNorm
+call_module model_encoder_layer_5_intermediate_dense model.encoder.layer.5.intermediate.dense
+call_function gelu_5               <built-in function gelu>
+call_module model_encoder_layer_5_output_dense model.encoder.layer.5.output.dense
+call_module model_encoder_layer_5_output_dropout model.encoder.layer.5.output.dropout
+call_function add_31               <built-in function add>
+call_module model_encoder_layer_5_output_layer_norm model.encoder.layer.5.output.LayerNorm
+call_method size_24              size
+call_function getitem_36           <built-in function getitem>
+call_function getitem_37           <built-in function getitem>
+call_function getitem_38           <built-in function getitem>
+call_module model_encoder_layer_6_attention_self_query model.encoder.layer.6.attention.self.query
+call_method size_25              size
+call_function getitem_39           <built-in function getitem>
+call_function add_32               <built-in function add>
+call_method view_18              view
+call_method permute_18           permute
+call_module model_encoder_layer_6_attention_self_key model.encoder.layer.6.attention.self.key
+call_method size_26              size
+call_function getitem_40           <built-in function getitem>
+call_function add_33               <built-in function add>
+call_method view_19              view
+call_method permute_19           permute
+call_module model_encoder_layer_6_attention_self_value model.encoder.layer.6.attention.self.value
+call_method size_27              size
+call_function getitem_41           <built-in function getitem>
+call_function add_34               <built-in function add>
+call_method view_20              view
+call_method permute_20           permute
+call_function scaled_dot_product_attention_6 <built-in function scaled_dot_product_attention>
+call_method transpose_6          transpose
+call_method reshape_6            reshape
+call_module model_encoder_layer_6_attention_output_dense model.encoder.layer.6.attention.output.dense
+call_module model_encoder_layer_6_attention_output_dropout model.encoder.layer.6.attention.output.dropout
+call_function add_35               <built-in function add>
+call_module model_encoder_layer_6_attention_output_layer_norm model.encoder.layer.6.attention.output.LayerNorm
+call_module model_encoder_layer_6_intermediate_dense model.encoder.layer.6.intermediate.dense
+call_function gelu_6               <built-in function gelu>
+call_module model_encoder_layer_6_output_dense model.encoder.layer.6.output.dense
+call_module model_encoder_layer_6_output_dropout model.encoder.layer.6.output.dropout
+call_function add_36               <built-in function add>
+call_module model_encoder_layer_6_output_layer_norm model.encoder.layer.6.output.LayerNorm
+call_method size_28              size
+call_function getitem_42           <built-in function getitem>
+call_function getitem_43           <built-in function getitem>
+call_function getitem_44           <built-in function getitem>
+call_module model_encoder_layer_7_attention_self_query model.encoder.layer.7.attention.self.query
+call_method size_29              size
+call_function getitem_45           <built-in function getitem>
+call_function add_37               <built-in function add>
+call_method view_21              view
+call_method permute_21           permute
+call_module model_encoder_layer_7_attention_self_key model.encoder.layer.7.attention.self.key
+call_method size_30              size
+call_function getitem_46           <built-in function getitem>
+call_function add_38               <built-in function add>
+call_method view_22              view
+call_method permute_22           permute
+call_module model_encoder_layer_7_attention_self_value model.encoder.layer.7.attention.self.value
+call_method size_31              size
+call_function getitem_47           <built-in function getitem>
+call_function add_39               <built-in function add>
+call_method view_23              view
+call_method permute_23           permute
+call_function scaled_dot_product_attention_7 <built-in function scaled_dot_product_attention>
+call_method transpose_7          transpose
+call_method reshape_7            reshape
+call_module model_encoder_layer_7_attention_output_dense model.encoder.layer.7.attention.output.dense
+call_module model_encoder_layer_7_attention_output_dropout model.encoder.layer.7.attention.output.dropout
+call_function add_40               <built-in function add>
+call_module model_encoder_layer_7_attention_output_layer_norm model.encoder.layer.7.attention.output.LayerNorm
+call_module model_encoder_layer_7_intermediate_dense model.encoder.layer.7.intermediate.dense
+call_function gelu_7               <built-in function gelu>
+call_module model_encoder_layer_7_output_dense model.encoder.layer.7.output.dense
+call_module model_encoder_layer_7_output_dropout model.encoder.layer.7.output.dropout
+call_function add_41               <built-in function add>
+call_module model_encoder_layer_7_output_layer_norm model.encoder.layer.7.output.LayerNorm
+call_method size_32              size
+call_function getitem_48           <built-in function getitem>
+call_function getitem_49           <built-in function getitem>
+call_function getitem_50           <built-in function getitem>
+call_module model_encoder_layer_8_attention_self_query model.encoder.layer.8.attention.self.query
+call_method size_33              size
+call_function getitem_51           <built-in function getitem>
+call_function add_42               <built-in function add>
+call_method view_24              view
+call_method permute_24           permute
+call_module model_encoder_layer_8_attention_self_key model.encoder.layer.8.attention.self.key
+call_method size_34              size
+call_function getitem_52           <built-in function getitem>
+call_function add_43               <built-in function add>
+call_method view_25              view
+call_method permute_25           permute
+call_module model_encoder_layer_8_attention_self_value model.encoder.layer.8.attention.self.value
+call_method size_35              size
+call_function getitem_53           <built-in function getitem>
+call_function add_44               <built-in function add>
+call_method view_26              view
+call_method permute_26           permute
+call_function scaled_dot_product_attention_8 <built-in function scaled_dot_product_attention>
+call_method transpose_8          transpose
+call_method reshape_8            reshape
+call_module model_encoder_layer_8_attention_output_dense model.encoder.layer.8.attention.output.dense
+call_module model_encoder_layer_8_attention_output_dropout model.encoder.layer.8.attention.output.dropout
+call_function add_45               <built-in function add>
+call_module model_encoder_layer_8_attention_output_layer_norm model.encoder.layer.8.attention.output.LayerNorm
+call_module model_encoder_layer_8_intermediate_dense model.encoder.layer.8.intermediate.dense
+call_function gelu_8               <built-in function gelu>
+call_module model_encoder_layer_8_output_dense model.encoder.layer.8.output.dense
+call_module model_encoder_layer_8_output_dropout model.encoder.layer.8.output.dropout
+call_function add_46               <built-in function add>
+call_module model_encoder_layer_8_output_layer_norm model.encoder.layer.8.output.LayerNorm
+call_method size_36              size
+call_function getitem_54           <built-in function getitem>
+call_function getitem_55           <built-in function getitem>
+call_function getitem_56           <built-in function getitem>
+call_module model_encoder_layer_9_attention_self_query model.encoder.layer.9.attention.self.query
+call_method size_37              size
+call_function getitem_57           <built-in function getitem>
+call_function add_47               <built-in function add>
+call_method view_27              view
+call_method permute_27           permute
+call_module model_encoder_layer_9_attention_self_key model.encoder.layer.9.attention.self.key
+call_method size_38              size
+call_function getitem_58           <built-in function getitem>
+call_function add_48               <built-in function add>
+call_method view_28              view
+call_method permute_28           permute
+call_module model_encoder_layer_9_attention_self_value model.encoder.layer.9.attention.self.value
+call_method size_39              size
+call_function getitem_59           <built-in function getitem>
+call_function add_49               <built-in function add>
+call_method view_29              view
+call_method permute_29           permute
+call_function scaled_dot_product_attention_9 <built-in function scaled_dot_product_attention>
+call_method transpose_9          transpose
+call_method reshape_9            reshape
+call_module model_encoder_layer_9_attention_output_dense model.encoder.layer.9.attention.output.dense
+call_module model_encoder_layer_9_attention_output_dropout model.encoder.layer.9.attention.output.dropout
+call_function add_50               <built-in function add>
+call_module model_encoder_layer_9_attention_output_layer_norm model.encoder.layer.9.attention.output.LayerNorm
+call_module model_encoder_layer_9_intermediate_dense model.encoder.layer.9.intermediate.dense
+call_function gelu_9               <built-in function gelu>
+call_module model_encoder_layer_9_output_dense model.encoder.layer.9.output.dense
+call_module model_encoder_layer_9_output_dropout model.encoder.layer.9.output.dropout
+call_function add_51               <built-in function add>
+call_module model_encoder_layer_9_output_layer_norm model.encoder.layer.9.output.LayerNorm
+call_method size_40              size
+call_function getitem_60           <built-in function getitem>
+call_function getitem_61           <built-in function getitem>
+call_function getitem_62           <built-in function getitem>
+call_module model_encoder_layer_10_attention_self_query model.encoder.layer.10.attention.self.query
+call_method size_41              size
+call_function getitem_63           <built-in function getitem>
+call_function add_52               <built-in function add>
+call_method view_30              view
+call_method permute_30           permute
+call_module model_encoder_layer_10_attention_self_key model.encoder.layer.10.attention.self.key
+call_method size_42              size
+call_function getitem_64           <built-in function getitem>
+call_function add_53               <built-in function add>
+call_method view_31              view
+call_method permute_31           permute
+call_module model_encoder_layer_10_attention_self_value model.encoder.layer.10.attention.self.value
+call_method size_43              size
+call_function getitem_65           <built-in function getitem>
+call_function add_54               <built-in function add>
+call_method view_32              view
+call_method permute_32           permute
+call_function scaled_dot_product_attention_10 <built-in function scaled_dot_product_attention>
+call_method transpose_10         transpose
+call_method reshape_10           reshape
+call_module model_encoder_layer_10_attention_output_dense model.encoder.layer.10.attention.output.dense
+call_module model_encoder_layer_10_attention_output_dropout model.encoder.layer.10.attention.output.dropout
+call_function add_55               <built-in function add>
+call_module model_encoder_layer_10_attention_output_layer_norm model.encoder.layer.10.attention.output.LayerNorm
+call_module model_encoder_layer_10_intermediate_dense model.encoder.layer.10.intermediate.dense
+call_function gelu_10              <built-in function gelu>
+call_module model_encoder_layer_10_output_dense model.encoder.layer.10.output.dense
+call_module model_encoder_layer_10_output_dropout model.encoder.layer.10.output.dropout
+call_function add_56               <built-in function add>
+call_module model_encoder_layer_10_output_layer_norm model.encoder.layer.10.output.LayerNorm
+call_method size_44              size
+call_function getitem_66           <built-in function getitem>
+call_function getitem_67           <built-in function getitem>
+call_function getitem_68           <built-in function getitem>
+call_module model_encoder_layer_11_attention_self_query model.encoder.layer.11.attention.self.query
+call_method size_45              size
+call_function getitem_69           <built-in function getitem>
+call_function add_57               <built-in function add>
+call_method view_33              view
+call_method permute_33           permute
+call_module model_encoder_layer_11_attention_self_key model.encoder.layer.11.attention.self.key
+call_method size_46              size
+call_function getitem_70           <built-in function getitem>
+call_function add_58               <built-in function add>
+call_method view_34              view
+call_method permute_34           permute
+call_module model_encoder_layer_11_attention_self_value model.encoder.layer.11.attention.self.value
+call_method size_47              size
+call_function getitem_71           <built-in function getitem>
+call_function add_59               <built-in function add>
+call_method view_35              view
+call_method permute_35           permute
+call_function scaled_dot_product_attention_11 <built-in function scaled_dot_product_attention>
+call_method transpose_11         transpose
+call_method reshape_11           reshape
+call_module model_encoder_layer_11_attention_output_dense model.encoder.layer.11.attention.output.dense
+call_module model_encoder_layer_11_attention_output_dropout model.encoder.layer.11.attention.output.dropout
+call_function add_60               <built-in function add>
+call_module model_encoder_layer_11_attention_output_layer_norm model.encoder.layer.11.attention.output.LayerNorm
+call_module model_encoder_layer_11_intermediate_dense model.encoder.layer.11.intermediate.dense
+call_function gelu_11              <built-in function gelu>
+call_module model_encoder_layer_11_output_dense model.encoder.layer.11.output.dense
+call_module model_encoder_layer_11_output_dropout model.encoder.layer.11.output.dropout
+call_function add_61               <built-in function add>
+call_module model_encoder_layer_11_output_layer_norm model.encoder.layer.11.output.LayerNorm
+call_function getitem_72           <built-in function getitem>
+call_module model_pooler_dense   model.pooler.dense
+call_module model_pooler_activation model.pooler.activation
+output     output               output
+
+✅ Done
