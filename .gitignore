@@ -222,3 +222,13 @@ cython_debug/
 *.out
 *.app
 
+
+# Python venv
+pytorch2.0_ttnn/venv/
+*.pyc
+__pycache__/
+build/
+dist/
+*.egg-info
+.pytest_cache/
+.ttnn_runtime_artifacts/
